@@ -2,8 +2,25 @@
   "redirects": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "unifecaf-digital-pos-redirect.vercel.app"
+        }
+      ],
       "destination": "https://www.unifecaf.com.br/pos-graduacao/",
-      "permanent": true
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.unifecaf-digital-pos-redirect.vercel.app"
+        }
+      ],
+      "destination": "https://www.unifecaf.com.br/pos-graduacao/",
+      "statusCode": 301
     }
   ]
 }
