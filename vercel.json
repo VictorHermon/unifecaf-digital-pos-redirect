@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "destination": "https://www.unifecaf.com.br/pos-graduacao/",
       "permanent": true
     }
