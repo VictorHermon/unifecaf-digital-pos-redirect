@@ -2,23 +2,6 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "unifecafdigital.com.br"
-        }
-      ],
-      "destination": "https://www.unifecaf.com.br/pos-graduacao/",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.unifecafdigital.com.br"
-        }
-      ],
       "destination": "https://www.unifecaf.com.br/pos-graduacao/",
       "permanent": true
     }
